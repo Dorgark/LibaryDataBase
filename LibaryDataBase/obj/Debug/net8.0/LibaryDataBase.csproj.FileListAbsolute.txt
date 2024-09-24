@@ -1,0 +1,14 @@
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.exe
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.deps.json
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.runtimeconfig.json
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.dll
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.pdb
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.AssemblyInfoInputs.cache
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.AssemblyInfo.cs
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.csproj.CoreCompileInputs.cache
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.dll
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\refint\LibaryDataBase.dll
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.pdb
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.genruntimeconfig.cache
+C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\ref\LibaryDataBase.dll
