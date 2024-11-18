@@ -1,56 +1,61 @@
-public class LivrariaDB
-{
-    private List<Livro> livros;
-    private int ultimoId;
+public class LivrariaDB{
 
-    public LivrariaDB()
-    {
-        livros = new List<Livro>();
-        ultimoId = 0; // Para gerar IDs incrementais
+    public List<Livro> livros = new List<Livro>();
+    int id = 0;
+
+        public void adicionarLivro(){
+            id++ ;
+        Console.WriteLine("Titulo do Livro:");
+        string nome = Console.ReadLine();
+
+        Console.WriteLine("Autor do Livro:");
+        string autor = Console.ReadLine();
+
+        Console.WriteLine("Preço do Livro:");
+        decimal preco = decimal.Parse(Console.ReadLine());
+
+        Console.WriteLine("Quantidade em Estoque:");
+        int quantidadeEstoque = int.Parse(Console.ReadLine());
+
+        Livro livro = new Livro(id, nome, autor, preco, quantidadeEstoque);
+        livros.Add(livro);
     }
 
-    // Adicionar um livro
-    public void AdicionarLivro(string titulo, string autor, decimal preco, int quantidadeEstoque)
-    {
-        var novoLivro = new Livro
-        {
-            Id = ++ultimoId, // Gera um novo ID
-            Titulo = titulo,
-            Autor = autor,
-            Preco = preco,
-            QuantidadeEstoque = quantidadeEstoque
-        };
-        livros.Add(novoLivro);
-        Console.WriteLine("Livro adicionado com sucesso!");
-    }
-
-    // Listar todos os livros
-    public List<Livro> ListarLivros()
-    {
-        return livros;
-    }
-
-    // Buscar um livro por título
-    public Livro BuscarLivroPorTitulo(string titulo)
-    {
-        return livros.FirstOrDefault(l => l.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase));
-    }
-
-    // Remover um livro pelo ID
-    public void RemoverLivro(int id)
-    {
-        var livro = livros.FirstOrDefault(l => l.Id == id);
-        if (livro != null)
-        {
-            livros.Remove(livro);
-            Console.WriteLine("Livro removido com sucesso!");
-        }
-        else
-        {
-            Console.WriteLine("Livro não encontrado!");
+    public void listarLivros(){
+        foreach(Livro livro in livros){
+            Console.WriteLine("LIVRO:" + livro.titulo);
         }
     }
 
-    // Atualizar informações de um livro
-    
+    public void buscarLivroPorTitulo(){
+        Console.WriteLine("Digite o titulo do livro que você deseja fazer consulta:");
+        string nome = Console.ReadLine();
+            foreach(Livro livro in livros){
+                if(livro.titulo == nome){
+                    Console.WriteLine("Preço do livro: R$" + livro.preco);
+                    Console.WriteLine("Quantidade em Estoque: " + livro.quantidadeEstoque);
+                    Console.WriteLine("Autor: " + livro.autor);
+                    Console.WriteLine("Id: " + livro.id);
+                }
+            }
+    }
+
+    public void removerLivro(){
+        
+        Console.WriteLine("Digite o ID do livro que deseja remover:");
+        int idLivro = int.Parse(Console.ReadLine());
+        
+        for (int i = 0; i < livros.Count; i++){
+            if(idLivro == livros[i].id){
+                livros.Remove(livros[i]);
+            }
+        
+
+            Console.WriteLine("Livro removido com sucesso.");
+        }
+        
+    }
 }
+
+
+    

@@ -1,14 +1,29 @@
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.exe
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.deps.json
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.runtimeconfig.json
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.dll
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\bin\Debug\net8.0\LibaryDataBase.pdb
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.AssemblyInfoInputs.cache
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.AssemblyInfo.cs
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.csproj.CoreCompileInputs.cache
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.dll
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\refint\LibaryDataBase.dll
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.pdb
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\LibaryDataBase.genruntimeconfig.cache
-C:\Users\caiqu\OneDrive\Documentos\GitHub\LibaryDataBase\LibaryDataBase\obj\Debug\net8.0\ref\LibaryDataBase.dll
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.exe
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.deps.json
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.runtimeconfig.json
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.dll
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.pdb
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.AssemblyInfoInputs.cache
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.AssemblyInfo.cs
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.csproj.CoreCompileInputs.cache
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.dll
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/refint/LibaryDataBase.dll
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.pdb
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.genruntimeconfig.cache
+C:/Users/caiqu/OneDrive/Documentos/GitHub/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/ref/LibaryDataBase.dll
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.deps.json
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.runtimeconfig.json
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.dll
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/bin/Debug/net8.0/LibaryDataBase.pdb
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.AssemblyInfoInputs.cache
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.AssemblyInfo.cs
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.csproj.CoreCompileInputs.cache
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.sourcelink.json
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.dll
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/refint/LibaryDataBase.dll
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.pdb
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/LibaryDataBase.genruntimeconfig.cache
+/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/Debug/net8.0/ref/LibaryDataBase.dll

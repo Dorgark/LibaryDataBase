@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\caiqu\\.nuget\\packages\\": {}
+    "/home/felipe/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caiqu\\OneDrive\\Documentos\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj",
+      "projectUniqueName": "/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/LibaryDataBase.csproj",
       "projectName": "LibaryDataBase",
-      "projectPath": "C:\\Users\\caiqu\\OneDrive\\Documentos\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj",
-      "packagesPath": "C:\\Users\\caiqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caiqu\\OneDrive\\Documentos\\GitHub\\LibaryDataBase\\LibaryDataBase\\obj\\",
+      "projectPath": "/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/LibaryDataBase.csproj",
+      "packagesPath": "/home/felipe/.nuget/packages/",
+      "outputPath": "/home/felipe/Área de trabalho/vscode-ws/LibaryDataBase/LibaryDataBase/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\caiqu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/felipe/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
