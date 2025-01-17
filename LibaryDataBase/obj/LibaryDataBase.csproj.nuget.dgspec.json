@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj": {}
+    "C:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj": {}
   },
   "projects": {
-    "c:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj": {
+    "C:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj",
+        "projectUniqueName": "C:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj",
         "projectName": "LibaryDataBase",
-        "projectPath": "c:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj",
+        "projectPath": "C:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\LibaryDataBase.csproj",
         "packagesPath": "C:\\Users\\caiqu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\obj\\",
+        "outputPath": "C:\\Users\\caiqu\\Documents\\GitHub\\LibaryDataBase\\LibaryDataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caiqu\\AppData\\Roaming\\NuGet\\NuGet.Config"
