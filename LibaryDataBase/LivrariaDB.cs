@@ -1,56 +1,56 @@
-public class LivrariaDB
+public class PessoasDB
 {
-    private List<Livro> livros;
+    private List<Pessoa> pessoas;
     private int ultimoId;
 
-    public LivrariaDB()
+    public PessoasDB()
     {
-        livros = new List<Livro>();
+        pessoas = new List<Pessoa>();
         ultimoId = 0; // Para gerar IDs incrementais
     }
 
-    // Adicionar um livro
-    public void AdicionarLivro(string titulo, string autor, decimal preco, int quantidadeEstoque)
+    // Adicionar uma pessoa
+    public void AdicionarPessoa(string nome, string cpf, string endereco, int quantidadeViagens)
     {
-        var novoLivro = new Livro
+        var novaPessoa = new Pessoa
         {
             Id = ++ultimoId, // Gera um novo ID
-            Titulo = titulo,
-            Autor = autor,
-            Preco = preco,
-            QuantidadeEstoque = quantidadeEstoque
+            Nome = nome,
+            CPF = cpf,
+            Endereco = endereco,
+            QuantidadeViagens = quantidadeViagens
         };
-        livros.Add(novoLivro);
-        Console.WriteLine("Livro adicionado com sucesso!");
+        pessoas.Add(novaPessoa);
+        Console.WriteLine("Pessoa adicionada com sucesso!");
     }
 
-    // Listar todos os livros
-    public List<Livro> ListarLivros()
+    // Listar todos as pessoas
+    public List<Pessoa> ListarPessoas()
     {
-        return livros;
+        return pessoas;
     }
 
-    // Buscar um livro por título
-    public Livro BuscarLivroPorTitulo(string titulo)
+    // Buscar uma pessoa pelo nome
+    public Pessoa BuscarPessoaPeloNome(string Nome)
     {
-        return livros.FirstOrDefault(l => l.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase));
+        return pessoas.FirstOrDefault(l => l.Nome.Equals(Nome, StringComparison.OrdinalIgnoreCase));
     }
 
-    // Remover um livro pelo ID
-    public void RemoverLivro(int id)
+    // Remover uma pessoa pelo ID
+    public void RemoverPessoa(int id)
     {
-        var livro = livros.FirstOrDefault(l => l.Id == id);
-        if (livro != null)
+        var pessoa = pessoas.FirstOrDefault(l => l.Id == id);
+        if (pessoa != null)
         {
-            livros.Remove(livro);
-            Console.WriteLine("Livro removido com sucesso!");
+            pessoas.Remove(pessoa);
+            Console.WriteLine("Pessoa removida com sucesso!");
         }
         else
         {
-            Console.WriteLine("Livro não encontrado!");
+            Console.WriteLine("Pessoa não encontrada!");
         }
     }
 
-    // Atualizar informações de um livro
+    // Atualizar informações de uma pessoa
     
 }

@@ -4,16 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        var livraria = new LivrariaDB();
+        var banco = new PessoasDB();
         bool continuar = true;
 
         while (continuar)
         {
-            Console.WriteLine("\n--- Menu da Livraria ---");
-            Console.WriteLine("1. Adicionar Livro");
-            Console.WriteLine("2. Listar Livros");
-            Console.WriteLine("3. Buscar Livro por Título");
-            Console.WriteLine("4. Remover Livro");
+            Console.WriteLine("\n--- Menu do Banco de Pessoas ---");
+            Console.WriteLine("1. Adicionar Pessoa");
+            Console.WriteLine("2. Listar Pessoas");
+            Console.WriteLine("3. Buscar Pessoa pelo nome");
+            Console.WriteLine("4. Remover Pessoa");
             Console.WriteLine("5. Sair");
             Console.Write("Escolha uma opção: ");
 
@@ -22,16 +22,16 @@ class Program
             switch (opcao)
             {
                 case "1":
-                    AdicionarLivro(livraria);
+                    AdicionarPessoa(banco);
                     break;
                 case "2":
-                    ListarLivros(livraria);
+                    ListarPessoas(banco);
                     break;
                 case "3":
-                    BuscarLivroPorTitulo(livraria);
+                    BuscarPessoaPeloNome(banco);
                     break;
                 case "4":
-                    RemoverLivro(livraria);
+                    RemoverPessoa(banco);
                     break;
                 case "5":
                     continuar = false;
@@ -44,54 +44,54 @@ class Program
         }
     }
 
-    static void AdicionarLivro(LivrariaDB livraria)
+    static void AdicionarPessoa(PessoasDB banco)
     {
-        Console.Write("Digite o título do livro: ");
-        string titulo = Console.ReadLine();
+        Console.Write("Digite o nome da pessoa: ");
+        string nome = Console.ReadLine();
 
-        Console.Write("Digite o autor do livro: ");
-        string autor = Console.ReadLine();
+        Console.Write("Digite o CPF da pessoa: ");
+        string cpf = Console.ReadLine();
 
-        Console.Write("Digite o preço do livro: ");
-        decimal preco = decimal.Parse(Console.ReadLine());
+        Console.Write("Digite o endereço da pessoa: ");
+        string endereco = Console.ReadLine();
 
-        Console.Write("Digite a quantidade em estoque: ");
-        int quantidadeEstoque = int.Parse(Console.ReadLine());
+        Console.Write("Digite a quantidade de viagens feitas: ");
+        int quantidadeViagens = int.Parse(Console.ReadLine());
 
-        livraria.AdicionarLivro(titulo, autor, preco, quantidadeEstoque);
+        banco.AdicionarPessoa(nome, cpf, endereco, quantidadeViagens);
     }
 
-    static void ListarLivros(LivrariaDB livraria)
+    static void ListarPessoas(PessoasDB banco)
     {
-        var livros = livraria.ListarLivros();
-        Console.WriteLine("\n--- Lista de Livros ---");
-        foreach (var livro in livros)
+        var pessoas = banco.ListarPessoas();
+        Console.WriteLine("\n--- Lista de Pessoas ---");
+        foreach (var pessoa in pessoas)
         {
-            Console.WriteLine($"{livro.Id}: {livro.Titulo} - {livro.Autor} - R${livro.Preco} - Estoque: {livro.QuantidadeEstoque}");
+            Console.WriteLine($" ID: {pessoa.Id} Nome: {pessoa.Nome} - CPF: {pessoa.CPF} - Endereço: {pessoa.Endereco} - Viagens: {pessoa.QuantidadeViagens}");
         }
     }
 
-    static void BuscarLivroPorTitulo(LivrariaDB livraria)
+    static void BuscarPessoaPeloNome(PessoasDB banco)
     {
-        Console.Write("Digite o título do livro: ");
-        string titulo = Console.ReadLine();
+        Console.Write("Digite o nome da pessoa: ");
+        string nome = Console.ReadLine();
 
-        var livro = livraria.BuscarLivroPorTitulo(titulo);
-        if (livro != null)
+        var pessoa = banco.BuscarPessoaPeloNome(nome);
+        if (pessoa != null)
         {
-            Console.WriteLine($"Livro encontrado: {livro.Titulo} - {livro.Autor} - R${livro.Preco} - Estoque: {livro.QuantidadeEstoque}");
+            Console.WriteLine($"Pessoa encontrada: ID: {pessoa.Id} Nome: {pessoa.Nome} - CPF: {pessoa.CPF} - Endereço: {pessoa.Endereco} - Viagens: {pessoa.QuantidadeViagens}");
         }
         else
         {
-            Console.WriteLine("Livro não encontrado.");
+            Console.WriteLine("Pessoa não encontrada.");
         }
     }
 
-    static void RemoverLivro(LivrariaDB livraria)
+    static void RemoverPessoa(PessoasDB banco)
     {
-        Console.Write("Digite o ID do livro que deseja remover: ");
+        Console.Write("Digite o ID da pessoa que deseja remover: ");
         int id = int.Parse(Console.ReadLine());
 
-        livraria.RemoverLivro(id);
+        banco.RemoverPessoa(id);
     }
 }
