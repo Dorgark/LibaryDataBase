@@ -9,7 +9,6 @@ public class LivrariaDB
         ultimoId = 0; // Para gerar IDs incrementais
     }
 
-    // Adicionar um livro
     public void AdicionarLivro(string titulo, string autor, decimal preco, int quantidadeEstoque)
     {
         var novoLivro = new Livro
@@ -24,19 +23,16 @@ public class LivrariaDB
         Console.WriteLine("Livro adicionado com sucesso!");
     }
 
-    // Listar todos os livros
     public List<Livro> ListarLivros()
     {
         return livros;
     }
 
-    // Buscar um livro por título
     public Livro BuscarLivroPorTitulo(string titulo)
     {
         return livros.FirstOrDefault(l => l.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase));
     }
 
-    // Remover um livro pelo ID
     public void RemoverLivro(int id)
     {
         var livro = livros.FirstOrDefault(l => l.Id == id);
@@ -50,7 +46,4 @@ public class LivrariaDB
             Console.WriteLine("Livro não encontrado!");
         }
     }
-
-    // Atualizar informações de um livro
-    
 }
